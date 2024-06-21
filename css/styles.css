@@ -107,3 +107,50 @@ a:active {
 .btn:hover {
 	background-color: #3882f680;
 }
+
+/* SECTION CARDS */
+
+.container-cards {
+	max-width: 1000px;
+	padding: 3.5em 2em 6em;
+	margin: 0 auto;
+}
+
+.heading-cards {
+	font-size: 3.6rem;
+	font-weight: 900;
+	color: #1f2937;
+	text-align: center;
+	margin-bottom: 1.2em;
+}
+
+.cards {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card {
+	max-width: 200px;
+}
+.card > .img {
+	width: 100%;
+	height: 180px;
+	margin-bottom: 0.4em;
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+
+	border: 3px solid rgb(18, 51, 80);
+	border-radius: 8px;
+	margin-bottom: 0.3em;
+}
+.card .description {
+	color: #333;
+	line-height: 1.2;
+	text-align: center;
+}
